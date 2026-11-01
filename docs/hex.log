@@ -1,0 +1,1268 @@
+2026-10-31 03:59:30  INFO      __main__  ============================================================
+2026-10-31 03:59:30  INFO      __main__  Hex  v. 1.0.0  --  starting
+2026-10-31 03:59:30  INFO      __main__  Python 3.14.7  |  platform: win32
+2026-10-31 03:59:30  DEBUG     ai_engine  Loading AI engine: ai_engines.mcts
+2026-10-31 03:59:30  DEBUG     ai_engine  AI engine loaded: MCTS (1000 iterations)
+2026-10-31 03:59:30  INFO      __main__  AI: MCTS (1000 iterations)  |  Skin: Default
+2026-10-31 03:59:30  INFO      __main__  Board default: 11x11  range: 3-19  (autoplay via start screen)
+2026-10-31 03:59:30  INFO      __main__  ============================================================
+2026-10-31 03:59:31  DEBUG     matplotlib  matplotlib data path: C:\Users\mpicciau\Downloads\tmp\Hex\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-31 03:59:31  DEBUG     matplotlib  CONFIGDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 03:59:31  DEBUG     matplotlib  interactive is False
+2026-10-31 03:59:31  DEBUG     matplotlib  platform is win32
+2026-10-31 03:59:31  DEBUG     matplotlib  CACHEDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 03:59:31  DEBUG     matplotlib.font_manager  Using fontManager instance from C:\Users\mpicciau\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-31 03:59:31  DEBUG     ui_main  Navigating to start screen
+2026-10-31 03:59:43  DEBUG     ui_main  Launch game: size=11 first=human autoplay=False
+2026-10-31 03:59:43  DEBUG     game_logic  GameState init: size=11 first_player=1
+2026-10-31 03:59:43  DEBUG     ui_main  Navigating to game screen (human_player=1, autoplay=False)
+2026-10-31 03:59:43  DEBUG     ai_engines.mcts  MCTSEngine reset
+2026-10-31 03:59:43  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 03:59:49  DEBUG     ui_board  Board click cell=(10, 2)
+2026-10-31 03:59:49  DEBUG     game_logic  Player 1 places at (10,2)  move #1
+2026-10-31 03:59:49  DEBUG     game_stats  Stats: move #1 player=1 cell=(10,2) elapsed=5.42s score=1
+2026-10-31 03:59:49  DEBUG     ui_main  Status: '...'
+2026-10-31 03:59:49  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 03:59:49  DEBUG     ai_engines.mcts  MCTS chose (7, 6)  visits=14  win_rate=0.79
+2026-10-31 03:59:49  DEBUG     game_logic  Player 2 places at (7,6)  move #2
+2026-10-31 03:59:49  DEBUG     game_stats  Stats: move #2 player=2 cell=(7,6) elapsed=0.79s score=0
+2026-10-31 03:59:49  DEBUG     ui_main  Status: '...'
+2026-10-31 03:59:50  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 03:59:55  DEBUG     ui_main  New game requested
+2026-10-31 03:59:55  DEBUG     ui_main  Navigating to start screen
+2026-10-31 04:00:00  DEBUG     ui_main  Launch game: size=11 first=human autoplay=True
+2026-10-31 04:00:00  DEBUG     game_logic  GameState init: size=11 first_player=1
+2026-10-31 04:00:00  DEBUG     ui_main  Navigating to game screen (human_player=None, autoplay=True)
+2026-10-31 04:00:00  DEBUG     ui_main  Autoplay engines created for both players
+2026-10-31 04:00:01  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:01  DEBUG     ai_engines.mcts  MCTS chose (9, 1)  visits=15  win_rate=0.80
+2026-10-31 04:00:01  DEBUG     game_logic  Player 1 places at (9,1)  move #1
+2026-10-31 04:00:01  DEBUG     game_stats  Stats: move #1 player=1 cell=(9,1) elapsed=1.09s score=1
+2026-10-31 04:00:01  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:02  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:03  DEBUG     ai_engines.mcts  MCTS chose (9, 0)  visits=14  win_rate=0.71
+2026-10-31 04:00:03  DEBUG     game_logic  Player 2 places at (9,0)  move #2
+2026-10-31 04:00:03  DEBUG     game_stats  Stats: move #2 player=2 cell=(9,0) elapsed=1.03s score=0
+2026-10-31 04:00:03  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:03  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:04  DEBUG     ai_engines.mcts  MCTS chose (2, 5)  visits=15  win_rate=0.80
+2026-10-31 04:00:04  DEBUG     game_logic  Player 1 places at (2,5)  move #3
+2026-10-31 04:00:04  DEBUG     game_stats  Stats: move #3 player=1 cell=(2,5) elapsed=1.01s score=0
+2026-10-31 04:00:04  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:04  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:05  DEBUG     ai_engines.mcts  MCTS chose (4, 4)  visits=14  win_rate=0.79
+2026-10-31 04:00:05  DEBUG     game_logic  Player 2 places at (4,4)  move #4
+2026-10-31 04:00:05  DEBUG     game_stats  Stats: move #4 player=2 cell=(4,4) elapsed=1.04s score=-1
+2026-10-31 04:00:05  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:05  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:06  DEBUG     ai_engines.mcts  MCTS chose (10, 4)  visits=15  win_rate=0.80
+2026-10-31 04:00:06  DEBUG     game_logic  Player 1 places at (10,4)  move #5
+2026-10-31 04:00:06  DEBUG     game_stats  Stats: move #5 player=1 cell=(10,4) elapsed=1.03s score=-1
+2026-10-31 04:00:06  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:06  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:07  DEBUG     ai_engines.mcts  MCTS chose (2, 9)  visits=15  win_rate=0.87
+2026-10-31 04:00:07  DEBUG     game_logic  Player 2 places at (2,9)  move #6
+2026-10-31 04:00:07  DEBUG     game_stats  Stats: move #6 player=2 cell=(2,9) elapsed=0.97s score=-1
+2026-10-31 04:00:07  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:07  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:08  DEBUG     ai_engines.mcts  MCTS chose (4, 1)  visits=15  win_rate=0.87
+2026-10-31 04:00:08  DEBUG     game_logic  Player 1 places at (4,1)  move #7
+2026-10-31 04:00:08  DEBUG     game_stats  Stats: move #7 player=1 cell=(4,1) elapsed=1.00s score=0
+2026-10-31 04:00:08  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:08  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:09  DEBUG     ai_engines.mcts  MCTS chose (1, 7)  visits=18  win_rate=0.89
+2026-10-31 04:00:09  DEBUG     game_logic  Player 2 places at (1,7)  move #8
+2026-10-31 04:00:09  DEBUG     game_stats  Stats: move #8 player=2 cell=(1,7) elapsed=0.95s score=-1
+2026-10-31 04:00:09  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:09  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:09  DEBUG     ai_engines.mcts  MCTS chose (8, 8)  visits=14  win_rate=0.71
+2026-10-31 04:00:09  DEBUG     game_logic  Player 1 places at (8,8)  move #9
+2026-10-31 04:00:09  DEBUG     game_stats  Stats: move #9 player=1 cell=(8,8) elapsed=0.97s score=-1
+2026-10-31 04:00:10  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:10  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:10  DEBUG     ai_engines.mcts  MCTS chose (0, 6)  visits=14  win_rate=0.79
+2026-10-31 04:00:10  DEBUG     game_logic  Player 2 places at (0,6)  move #10
+2026-10-31 04:00:10  DEBUG     game_stats  Stats: move #10 player=2 cell=(0,6) elapsed=1.00s score=-1
+2026-10-31 04:00:10  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:11  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:11  DEBUG     ai_engines.mcts  MCTS chose (9, 3)  visits=14  win_rate=0.79
+2026-10-31 04:00:11  DEBUG     game_logic  Player 1 places at (9,3)  move #11
+2026-10-31 04:00:11  DEBUG     game_stats  Stats: move #11 player=1 cell=(9,3) elapsed=0.96s score=0
+2026-10-31 04:00:11  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:12  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:12  DEBUG     ai_engines.mcts  MCTS chose (5, 7)  visits=14  win_rate=0.79
+2026-10-31 04:00:12  DEBUG     game_logic  Player 2 places at (5,7)  move #12
+2026-10-31 04:00:12  DEBUG     game_stats  Stats: move #12 player=2 cell=(5,7) elapsed=0.96s score=0
+2026-10-31 04:00:12  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:13  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:13  DEBUG     ai_engines.mcts  MCTS chose (2, 8)  visits=14  win_rate=0.79
+2026-10-31 04:00:13  DEBUG     game_logic  Player 1 places at (2,8)  move #13
+2026-10-31 04:00:13  DEBUG     game_stats  Stats: move #13 player=1 cell=(2,8) elapsed=0.97s score=0
+2026-10-31 04:00:13  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:14  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:14  DEBUG     ai_engines.mcts  MCTS chose (4, 6)  visits=16  win_rate=0.75
+2026-10-31 04:00:14  DEBUG     game_logic  Player 2 places at (4,6)  move #14
+2026-10-31 04:00:14  DEBUG     game_stats  Stats: move #14 player=2 cell=(4,6) elapsed=1.02s score=0
+2026-10-31 04:00:14  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:15  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:15  DEBUG     ai_engines.mcts  MCTS chose (7, 1)  visits=16  win_rate=0.81
+2026-10-31 04:00:15  DEBUG     game_logic  Player 1 places at (7,1)  move #15
+2026-10-31 04:00:15  DEBUG     game_stats  Stats: move #15 player=1 cell=(7,1) elapsed=0.94s score=0
+2026-10-31 04:00:15  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:16  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:16  DEBUG     ai_engines.mcts  MCTS chose (6, 7)  visits=16  win_rate=0.69
+2026-10-31 04:00:16  DEBUG     game_logic  Player 2 places at (6,7)  move #16
+2026-10-31 04:00:16  DEBUG     game_stats  Stats: move #16 player=2 cell=(6,7) elapsed=0.96s score=0
+2026-10-31 04:00:16  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:17  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:17  DEBUG     ai_engines.mcts  MCTS chose (8, 9)  visits=15  win_rate=0.73
+2026-10-31 04:00:17  DEBUG     game_logic  Player 1 places at (8,9)  move #17
+2026-10-31 04:00:17  DEBUG     game_stats  Stats: move #17 player=1 cell=(8,9) elapsed=0.97s score=1
+2026-10-31 04:00:17  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:18  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:18  DEBUG     ai_engines.mcts  MCTS chose (1, 1)  visits=15  win_rate=0.73
+2026-10-31 04:00:18  DEBUG     game_logic  Player 2 places at (1,1)  move #18
+2026-10-31 04:00:18  DEBUG     game_stats  Stats: move #18 player=2 cell=(1,1) elapsed=0.99s score=1
+2026-10-31 04:00:18  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:18  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:19  DEBUG     ai_engines.mcts  MCTS chose (0, 7)  visits=15  win_rate=0.73
+2026-10-31 04:00:19  DEBUG     game_logic  Player 1 places at (0,7)  move #19
+2026-10-31 04:00:19  DEBUG     game_stats  Stats: move #19 player=1 cell=(0,7) elapsed=0.96s score=1
+2026-10-31 04:00:19  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:19  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:20  DEBUG     ai_engines.mcts  MCTS chose (8, 6)  visits=17  win_rate=0.76
+2026-10-31 04:00:20  DEBUG     game_logic  Player 2 places at (8,6)  move #20
+2026-10-31 04:00:20  DEBUG     game_stats  Stats: move #20 player=2 cell=(8,6) elapsed=0.95s score=0
+2026-10-31 04:00:20  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:20  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:21  DEBUG     ai_engines.mcts  MCTS chose (0, 8)  visits=17  win_rate=0.76
+2026-10-31 04:00:21  DEBUG     game_logic  Player 1 places at (0,8)  move #21
+2026-10-31 04:00:21  DEBUG     game_stats  Stats: move #21 player=1 cell=(0,8) elapsed=0.98s score=0
+2026-10-31 04:00:21  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:21  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:22  DEBUG     ai_engines.mcts  MCTS chose (10, 1)  visits=16  win_rate=0.81
+2026-10-31 04:00:22  DEBUG     game_logic  Player 2 places at (10,1)  move #22
+2026-10-31 04:00:22  DEBUG     game_stats  Stats: move #22 player=2 cell=(10,1) elapsed=0.97s score=0
+2026-10-31 04:00:22  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:22  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:23  DEBUG     ai_engines.mcts  MCTS chose (1, 10)  visits=16  win_rate=0.69
+2026-10-31 04:00:23  DEBUG     game_logic  Player 1 places at (1,10)  move #23
+2026-10-31 04:00:23  DEBUG     game_stats  Stats: move #23 player=1 cell=(1,10) elapsed=0.95s score=0
+2026-10-31 04:00:23  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:23  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:24  DEBUG     ai_engines.mcts  MCTS chose (0, 10)  visits=16  win_rate=0.69
+2026-10-31 04:00:24  DEBUG     game_logic  Player 2 places at (0,10)  move #24
+2026-10-31 04:00:24  DEBUG     game_stats  Stats: move #24 player=2 cell=(0,10) elapsed=0.95s score=-1
+2026-10-31 04:00:24  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:24  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:25  DEBUG     ai_engines.mcts  MCTS chose (6, 6)  visits=16  win_rate=0.75
+2026-10-31 04:00:25  DEBUG     game_logic  Player 1 places at (6,6)  move #25
+2026-10-31 04:00:25  DEBUG     game_stats  Stats: move #25 player=1 cell=(6,6) elapsed=0.95s score=-1
+2026-10-31 04:00:25  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:25  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:26  DEBUG     ai_engines.mcts  MCTS chose (9, 4)  visits=20  win_rate=0.85
+2026-10-31 04:00:26  DEBUG     game_logic  Player 2 places at (9,4)  move #26
+2026-10-31 04:00:26  DEBUG     game_stats  Stats: move #26 player=2 cell=(9,4) elapsed=0.96s score=-1
+2026-10-31 04:00:26  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:26  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:27  DEBUG     ai_engines.mcts  MCTS chose (7, 7)  visits=17  win_rate=0.76
+2026-10-31 04:00:27  DEBUG     game_logic  Player 1 places at (7,7)  move #27
+2026-10-31 04:00:27  DEBUG     game_stats  Stats: move #27 player=1 cell=(7,7) elapsed=0.95s score=-1
+2026-10-31 04:00:27  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:27  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:28  DEBUG     ai_engines.mcts  MCTS chose (7, 6)  visits=18  win_rate=0.78
+2026-10-31 04:00:28  DEBUG     game_logic  Player 2 places at (7,6)  move #28
+2026-10-31 04:00:28  DEBUG     game_stats  Stats: move #28 player=2 cell=(7,6) elapsed=0.98s score=-2
+2026-10-31 04:00:28  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:28  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:29  DEBUG     ai_engines.mcts  MCTS chose (0, 3)  visits=20  win_rate=0.70
+2026-10-31 04:00:29  DEBUG     game_logic  Player 1 places at (0,3)  move #29
+2026-10-31 04:00:29  DEBUG     game_stats  Stats: move #29 player=1 cell=(0,3) elapsed=0.95s score=-2
+2026-10-31 04:00:29  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:29  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:30  DEBUG     ai_engines.mcts  MCTS chose (10, 8)  visits=17  win_rate=0.88
+2026-10-31 04:00:30  DEBUG     game_logic  Player 2 places at (10,8)  move #30
+2026-10-31 04:00:30  DEBUG     game_stats  Stats: move #30 player=2 cell=(10,8) elapsed=0.95s score=-2
+2026-10-31 04:00:30  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:30  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:31  DEBUG     ai_engines.mcts  MCTS chose (8, 4)  visits=22  win_rate=0.77
+2026-10-31 04:00:31  DEBUG     game_logic  Player 1 places at (8,4)  move #31
+2026-10-31 04:00:31  DEBUG     game_stats  Stats: move #31 player=1 cell=(8,4) elapsed=0.94s score=-2
+2026-10-31 04:00:31  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:31  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:32  DEBUG     ai_engines.mcts  MCTS chose (3, 2)  visits=19  win_rate=0.84
+2026-10-31 04:00:32  DEBUG     game_logic  Player 2 places at (3,2)  move #32
+2026-10-31 04:00:32  DEBUG     game_stats  Stats: move #32 player=2 cell=(3,2) elapsed=0.96s score=-2
+2026-10-31 04:00:32  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:32  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:33  DEBUG     ai_engines.mcts  MCTS chose (7, 9)  visits=19  win_rate=0.68
+2026-10-31 04:00:33  DEBUG     game_logic  Player 1 places at (7,9)  move #33
+2026-10-31 04:00:33  DEBUG     game_stats  Stats: move #33 player=1 cell=(7,9) elapsed=0.93s score=-2
+2026-10-31 04:00:33  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:33  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:34  DEBUG     ai_engines.mcts  MCTS chose (3, 4)  visits=20  win_rate=0.80
+2026-10-31 04:00:34  DEBUG     game_logic  Player 2 places at (3,4)  move #34
+2026-10-31 04:00:34  DEBUG     game_stats  Stats: move #34 player=2 cell=(3,4) elapsed=0.99s score=-2
+2026-10-31 04:00:34  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:34  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:34  DEBUG     ai_engines.mcts  MCTS chose (6, 3)  visits=21  win_rate=0.67
+2026-10-31 04:00:35  DEBUG     game_logic  Player 1 places at (6,3)  move #35
+2026-10-31 04:00:35  DEBUG     game_stats  Stats: move #35 player=1 cell=(6,3) elapsed=0.95s score=-2
+2026-10-31 04:00:35  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:35  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:35  DEBUG     ai_engines.mcts  MCTS chose (1, 9)  visits=19  win_rate=0.89
+2026-10-31 04:00:35  DEBUG     game_logic  Player 2 places at (1,9)  move #36
+2026-10-31 04:00:35  DEBUG     game_stats  Stats: move #36 player=2 cell=(1,9) elapsed=0.96s score=-3
+2026-10-31 04:00:35  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:36  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:36  DEBUG     ai_engines.mcts  MCTS chose (4, 5)  visits=20  win_rate=0.55
+2026-10-31 04:00:36  DEBUG     game_logic  Player 1 places at (4,5)  move #37
+2026-10-31 04:00:36  DEBUG     game_stats  Stats: move #37 player=1 cell=(4,5) elapsed=0.94s score=-3
+2026-10-31 04:00:36  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:37  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:37  DEBUG     ai_engines.mcts  MCTS chose (4, 7)  visits=20  win_rate=0.95
+2026-10-31 04:00:37  DEBUG     game_logic  Player 2 places at (4,7)  move #38
+2026-10-31 04:00:37  DEBUG     game_stats  Stats: move #38 player=2 cell=(4,7) elapsed=0.95s score=-4
+2026-10-31 04:00:37  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:38  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:38  DEBUG     ai_engines.mcts  MCTS chose (3, 8)  visits=20  win_rate=0.50
+2026-10-31 04:00:38  DEBUG     game_logic  Player 1 places at (3,8)  move #39
+2026-10-31 04:00:38  DEBUG     game_stats  Stats: move #39 player=1 cell=(3,8) elapsed=0.92s score=-3
+2026-10-31 04:00:38  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:38  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:39  DEBUG     ai_engines.mcts  MCTS chose (9, 6)  visits=19  win_rate=0.89
+2026-10-31 04:00:39  DEBUG     game_logic  Player 2 places at (9,6)  move #40
+2026-10-31 04:00:39  DEBUG     game_stats  Stats: move #40 player=2 cell=(9,6) elapsed=0.95s score=-4
+2026-10-31 04:00:39  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:39  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:40  DEBUG     ai_engines.mcts  MCTS chose (8, 2)  visits=20  win_rate=0.50
+2026-10-31 04:00:40  DEBUG     game_logic  Player 1 places at (8,2)  move #41
+2026-10-31 04:00:40  DEBUG     game_stats  Stats: move #41 player=1 cell=(8,2) elapsed=1.00s score=-4
+2026-10-31 04:00:40  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:40  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:41  DEBUG     ai_engines.mcts  MCTS chose (5, 4)  visits=19  win_rate=0.95
+2026-10-31 04:00:41  DEBUG     game_logic  Player 2 places at (5,4)  move #42
+2026-10-31 04:00:41  DEBUG     game_stats  Stats: move #42 player=2 cell=(5,4) elapsed=0.96s score=-4
+2026-10-31 04:00:41  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:41  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:42  DEBUG     ai_engines.mcts  MCTS chose (6, 10)  visits=21  win_rate=0.48
+2026-10-31 04:00:42  DEBUG     game_logic  Player 1 places at (6,10)  move #43
+2026-10-31 04:00:42  DEBUG     game_stats  Stats: move #43 player=1 cell=(6,10) elapsed=0.97s score=-3
+2026-10-31 04:00:42  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:42  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:43  DEBUG     ai_engines.mcts  MCTS chose (3, 6)  visits=19  win_rate=1.00
+2026-10-31 04:00:43  DEBUG     game_logic  Player 2 places at (3,6)  move #44
+2026-10-31 04:00:43  DEBUG     game_stats  Stats: move #44 player=2 cell=(3,6) elapsed=0.95s score=-3
+2026-10-31 04:00:43  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:43  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:44  DEBUG     ai_engines.mcts  MCTS chose (5, 2)  visits=21  win_rate=0.38
+2026-10-31 04:00:44  DEBUG     game_logic  Player 1 places at (5,2)  move #45
+2026-10-31 04:00:44  DEBUG     game_stats  Stats: move #45 player=1 cell=(5,2) elapsed=0.95s score=-3
+2026-10-31 04:00:44  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:44  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:45  DEBUG     ai_engines.mcts  MCTS chose (4, 9)  visits=17  win_rate=1.00
+2026-10-31 04:00:45  DEBUG     game_logic  Player 2 places at (4,9)  move #46
+2026-10-31 04:00:45  DEBUG     game_stats  Stats: move #46 player=2 cell=(4,9) elapsed=0.94s score=-3
+2026-10-31 04:00:45  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:45  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:46  DEBUG     ai_engines.mcts  MCTS chose (4, 2)  visits=20  win_rate=0.35
+2026-10-31 04:00:46  DEBUG     game_logic  Player 1 places at (4,2)  move #47
+2026-10-31 04:00:46  DEBUG     game_stats  Stats: move #47 player=1 cell=(4,2) elapsed=0.97s score=-3
+2026-10-31 04:00:46  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:46  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:47  DEBUG     ai_engines.mcts  MCTS chose (6, 2)  visits=18  win_rate=1.00
+2026-10-31 04:00:47  DEBUG     game_logic  Player 2 places at (6,2)  move #48
+2026-10-31 04:00:47  DEBUG     game_stats  Stats: move #48 player=2 cell=(6,2) elapsed=1.00s score=-3
+2026-10-31 04:00:47  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:47  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:48  DEBUG     ai_engines.mcts  MCTS chose (6, 1)  visits=22  win_rate=0.36
+2026-10-31 04:00:48  DEBUG     game_logic  Player 1 places at (6,1)  move #49
+2026-10-31 04:00:48  DEBUG     game_stats  Stats: move #49 player=1 cell=(6,1) elapsed=0.95s score=-3
+2026-10-31 04:00:48  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:48  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:49  DEBUG     ai_engines.mcts  MCTS chose (4, 8)  visits=19  win_rate=1.00
+2026-10-31 04:00:49  DEBUG     game_logic  Player 2 places at (4,8)  move #50
+2026-10-31 04:00:49  DEBUG     game_stats  Stats: move #50 player=2 cell=(4,8) elapsed=0.94s score=-4
+2026-10-31 04:00:49  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:49  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:50  DEBUG     ai_engines.mcts  MCTS chose (8, 7)  visits=21  win_rate=0.33
+2026-10-31 04:00:50  DEBUG     game_logic  Player 1 places at (8,7)  move #51
+2026-10-31 04:00:50  DEBUG     game_stats  Stats: move #51 player=1 cell=(8,7) elapsed=0.93s score=-4
+2026-10-31 04:00:50  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:50  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:51  DEBUG     ai_engines.mcts  MCTS chose (5, 5)  visits=19  win_rate=1.00
+2026-10-31 04:00:51  DEBUG     game_logic  Player 2 places at (5,5)  move #52
+2026-10-31 04:00:51  DEBUG     game_stats  Stats: move #52 player=2 cell=(5,5) elapsed=0.92s score=-4
+2026-10-31 04:00:51  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:51  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:52  DEBUG     ai_engines.mcts  MCTS chose (0, 9)  visits=21  win_rate=0.29
+2026-10-31 04:00:52  DEBUG     game_logic  Player 1 places at (0,9)  move #53
+2026-10-31 04:00:52  DEBUG     game_stats  Stats: move #53 player=1 cell=(0,9) elapsed=0.93s score=-4
+2026-10-31 04:00:52  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:52  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:53  DEBUG     ai_engines.mcts  MCTS chose (3, 0)  visits=19  win_rate=0.95
+2026-10-31 04:00:53  DEBUG     game_logic  Player 2 places at (3,0)  move #54
+2026-10-31 04:00:53  DEBUG     game_stats  Stats: move #54 player=2 cell=(3,0) elapsed=0.94s score=-4
+2026-10-31 04:00:53  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:53  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:54  DEBUG     ai_engines.mcts  MCTS chose (2, 1)  visits=22  win_rate=0.32
+2026-10-31 04:00:54  DEBUG     game_logic  Player 1 places at (2,1)  move #55
+2026-10-31 04:00:54  DEBUG     game_stats  Stats: move #55 player=1 cell=(2,1) elapsed=1.01s score=-4
+2026-10-31 04:00:54  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:54  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:55  DEBUG     ai_engines.mcts  MCTS chose (8, 3)  visits=20  win_rate=0.95
+2026-10-31 04:00:55  DEBUG     game_logic  Player 2 places at (8,3)  move #56
+2026-10-31 04:00:55  DEBUG     game_stats  Stats: move #56 player=2 cell=(8,3) elapsed=0.91s score=-4
+2026-10-31 04:00:55  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:55  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:55  DEBUG     ai_engines.mcts  MCTS chose (6, 4)  visits=23  win_rate=0.30
+2026-10-31 04:00:55  DEBUG     game_logic  Player 1 places at (6,4)  move #57
+2026-10-31 04:00:55  DEBUG     game_stats  Stats: move #57 player=1 cell=(6,4) elapsed=0.92s score=-4
+2026-10-31 04:00:55  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:56  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:56  DEBUG     ai_engines.mcts  MCTS chose (10, 6)  visits=21  win_rate=1.00
+2026-10-31 04:00:56  DEBUG     game_logic  Player 2 places at (10,6)  move #58
+2026-10-31 04:00:56  DEBUG     game_stats  Stats: move #58 player=2 cell=(10,6) elapsed=0.93s score=-6
+2026-10-31 04:00:56  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:57  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:57  DEBUG     ai_engines.mcts  MCTS chose (10, 0)  visits=23  win_rate=0.22
+2026-10-31 04:00:57  DEBUG     game_logic  Player 1 places at (10,0)  move #59
+2026-10-31 04:00:57  DEBUG     game_stats  Stats: move #59 player=1 cell=(10,0) elapsed=0.94s score=-6
+2026-10-31 04:00:57  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:58  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:58  DEBUG     ai_engines.mcts  MCTS chose (2, 4)  visits=18  win_rate=1.00
+2026-10-31 04:00:58  DEBUG     game_logic  Player 2 places at (2,4)  move #60
+2026-10-31 04:00:58  DEBUG     game_stats  Stats: move #60 player=2 cell=(2,4) elapsed=0.92s score=-8
+2026-10-31 04:00:58  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:58  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:00:59  DEBUG     ai_engines.mcts  MCTS chose (7, 5)  visits=21  win_rate=0.14
+2026-10-31 04:00:59  DEBUG     game_logic  Player 1 places at (7,5)  move #61
+2026-10-31 04:00:59  DEBUG     game_stats  Stats: move #61 player=1 cell=(7,5) elapsed=0.96s score=-8
+2026-10-31 04:00:59  DEBUG     ui_main  Status: '...'
+2026-10-31 04:00:59  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:00  DEBUG     ai_engines.mcts  MCTS chose (5, 10)  visits=18  win_rate=1.00
+2026-10-31 04:01:00  DEBUG     game_logic  Player 2 places at (5,10)  move #62
+2026-10-31 04:01:00  DEBUG     game_stats  Stats: move #62 player=2 cell=(5,10) elapsed=0.92s score=-8
+2026-10-31 04:01:00  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:00  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:01  DEBUG     ai_engines.mcts  MCTS chose (2, 6)  visits=22  win_rate=0.14
+2026-10-31 04:01:01  DEBUG     game_logic  Player 1 places at (2,6)  move #63
+2026-10-31 04:01:01  DEBUG     game_stats  Stats: move #63 player=1 cell=(2,6) elapsed=0.90s score=-7
+2026-10-31 04:01:01  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:01  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:02  DEBUG     ai_engines.mcts  MCTS chose (5, 0)  visits=19  win_rate=0.95
+2026-10-31 04:01:02  DEBUG     game_logic  Player 2 places at (5,0)  move #64
+2026-10-31 04:01:02  DEBUG     game_stats  Stats: move #64 player=2 cell=(5,0) elapsed=0.94s score=-7
+2026-10-31 04:01:02  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:02  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:03  DEBUG     ai_engines.mcts  MCTS chose (6, 8)  visits=22  win_rate=0.14
+2026-10-31 04:01:03  DEBUG     game_logic  Player 1 places at (6,8)  move #65
+2026-10-31 04:01:03  DEBUG     game_stats  Stats: move #65 player=1 cell=(6,8) elapsed=0.90s score=-7
+2026-10-31 04:01:03  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:03  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:04  DEBUG     ai_engines.mcts  MCTS chose (1, 8)  visits=20  win_rate=1.00
+2026-10-31 04:01:04  DEBUG     game_logic  Player 2 places at (1,8)  move #66
+2026-10-31 04:01:04  DEBUG     game_stats  Stats: move #66 player=2 cell=(1,8) elapsed=0.90s score=-7
+2026-10-31 04:01:04  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:04  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:05  DEBUG     ai_engines.mcts  MCTS chose (5, 8)  visits=24  win_rate=0.17
+2026-10-31 04:01:05  DEBUG     game_logic  Player 1 places at (5,8)  move #67
+2026-10-31 04:01:05  DEBUG     game_stats  Stats: move #67 player=1 cell=(5,8) elapsed=0.88s score=-7
+2026-10-31 04:01:05  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:05  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:06  DEBUG     ai_engines.mcts  MCTS chose (8, 0)  visits=20  win_rate=1.00
+2026-10-31 04:01:06  DEBUG     game_logic  Player 2 places at (8,0)  move #68
+2026-10-31 04:01:06  DEBUG     game_stats  Stats: move #68 player=2 cell=(8,0) elapsed=0.92s score=-7
+2026-10-31 04:01:06  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:06  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:06  DEBUG     ai_engines.mcts  MCTS chose (2, 7)  visits=24  win_rate=0.12
+2026-10-31 04:01:06  DEBUG     game_logic  Player 1 places at (2,7)  move #69
+2026-10-31 04:01:06  DEBUG     game_stats  Stats: move #69 player=1 cell=(2,7) elapsed=0.88s score=-6
+2026-10-31 04:01:06  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:07  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:07  DEBUG     ai_engines.mcts  MCTS chose (0, 0)  visits=22  win_rate=1.00
+2026-10-31 04:01:07  DEBUG     game_logic  Player 2 places at (0,0)  move #70
+2026-10-31 04:01:07  DEBUG     game_stats  Stats: move #70 player=2 cell=(0,0) elapsed=0.90s score=-6
+2026-10-31 04:01:07  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:08  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:08  DEBUG     ai_engines.mcts  MCTS chose (1, 5)  visits=26  win_rate=0.19
+2026-10-31 04:01:08  DEBUG     game_logic  Player 1 places at (1,5)  move #71
+2026-10-31 04:01:08  DEBUG     game_stats  Stats: move #71 player=1 cell=(1,5) elapsed=0.89s score=-5
+2026-10-31 04:01:08  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:08  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:01:09  DEBUG     ai_engines.mcts  MCTS chose (3, 9)  visits=27  win_rate=1.00
+2026-10-31 04:01:09  DEBUG     game_logic  Player 2 places at (3,9)  move #72
+2026-10-31 04:01:09  DEBUG     game_logic  Player 2 wins!  Path length=11
+2026-10-31 04:01:09  DEBUG     game_stats  Stats: move #72 player=2 cell=(3,9) elapsed=0.91s score=-122
+2026-10-31 04:01:09  DEBUG     ui_main  Status: '...'
+2026-10-31 04:01:10  INFO      game_stats  === GAME SUMMARY ===
+2026-10-31 04:01:10  INFO      game_stats  [OUTCOME] result=Player 2 reason=win duration=1m09s board_size=11
+2026-10-31 04:01:10  INFO      game_stats  [MOVES] total=72 p1=36 p2=36 board_fill=60%
+2026-10-31 04:01:10  INFO      game_stats  [TIMING] avg_p1=0.95s avg_p2=0.95s
+2026-10-31 04:01:10  INFO      game_stats  [TRAJECTORY] pos_scores=[1, 0, 0, -1, -1, -1, 0, -1, -1, -1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, -1, -1, -1, -1, -2, -2, -2, -2, -2, -2, -2, -2, -3, -3, -4, -3, -4, -4, -4, -3, -3, -3, -3, -3, -3, -3, -4, -4, -4, -4, -4, -4, -4, -4, -6, -6, -8, -8, -8, -7, -7, -7, -7, -7, -7, -6, -6, -5, -122]
+2026-10-31 04:01:10  DEBUG     ui_main  Status: 'Player 2 wins!'
+2026-10-31 04:01:10  DEBUG     ui_main  Game over: winner=2
+2026-10-31 04:01:11  DEBUG     matplotlib.pyplot  Loaded backend TkAgg version 9.0.
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 1189
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 2994
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 374
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 286
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 263
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 387
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 436
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 351
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IHDR' 16 13
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'sBIT' 41 4
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  b'sBIT' 41 4 (unknown)
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'pHYs' 57 9
+2026-10-31 04:01:11  DEBUG     PIL.PngImagePlugin  STREAM b'IDAT' 78 364
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf', index=0, name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf', index=0, name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf', index=0, name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LastResortHE-Regular.ttf', index=0, name='Last Resort High-Efficiency', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf', index=0, name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmti10.ttf', index=0, name='cmti10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf', index=0, name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf', index=0, name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf', index=0, name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf', index=0, name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf', index=0, name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf', index=0, name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cour.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoepr.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbd.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiab.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanb.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriaz.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\sylfaen.ttf', index=0, name='Sylfaen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriab.ttf', index=0, name='Cambria', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahoma.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuib.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comic.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailu.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=0, name='Nirmala UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=1, name='Nirmala UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=3, name='Nirmala Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=4, name='Nirmala Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=0, name='SimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=1, name='NSimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegoeIcons.ttf', index=0, name='Segoe Fluent Icons', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrii.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\webdings.ttf', index=0, name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoescb.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanai.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeui.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Gabriola.ttf', index=0, name='Gabriola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailub.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI Black', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candara.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanz.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolai.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguihis.ttf', index=0, name='Segoe UI Historic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtextb.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanaz.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\impact.ttf', index=0, name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\micross.ttf', index=0, name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbd.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\times.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\javatext.ttf', index=0, name='Javanese Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SimsunExtG.ttf', index=0, name='SimSun-ExtG', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrima.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbd.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbi.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=0, name='MingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=1, name='PMingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=2, name='MingLiU_HKSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=3, name='MingLiU_MSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelb.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarai.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgun.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Inkfree.ttf', index=0, name='Ink Free', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahomabd.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucit.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariali.ttf', index=0, name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicbd.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=0, name='Cambria', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=1, name='Cambria Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguiemj.ttf', index=0, name='Segoe UI Emoji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebuc.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\himalaya.ttf', index=0, name='Microsoft Himalaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\couri.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constani.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SansSerifCollection.ttf', index=0, name='Sans Serif Collection', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoesc.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrimabd.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspa.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\wingding.ttf', index=0, name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugi.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspab.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisym.ttf', index=0, name='Segoe UI Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consola.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtext.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbi.ttf', index=0, name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolab.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palabi.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\symbol.ttf', index=0, name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuii.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constan.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=350, stretch='normal', size='scalable')) = 11.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI Semilight', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\monbaiti.ttf', index=0, name='Mongolian Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 6.888636363636364
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\pala.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgia.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugib.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelawUI.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdana.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiai.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mvboli.ttf', index=0, name='MV Boli', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaraz.ttf', index=0, name='Candara', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI Semibold', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbel.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\l_10646.ttf', index=0, name='Lucida Sans Unicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framd.ttf', index=0, name='Franklin Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbi.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeprb.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibriz.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framdit.ttf', index=0, name='Franklin Gothic Medium', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolaz.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\bahnschrift.ttf', index=0, name='Bahnschrift', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comici.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibri.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelz.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuiz.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegUIVar.ttf', index=0, name='Segoe UI Variable', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriai.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbeli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segmdl2.ttf', index=0, name='Segoe MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taileb.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelaUIb.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka Text', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanab.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrib.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbd.ttf', index=0, name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arial.ttf', index=0, name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palab.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsunb.ttf', index=0, name='SimSun-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiaz.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=0, name='MS Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=1, name='MS UI Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=2, name='MS PGothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunbd.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyi.ttf', index=0, name='Microsoft Yi Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\lucon.ttf', index=0, name='Lucida Console', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicz.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taile.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarab.ttf', index=0, name='Candara', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palai.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=7.0.
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf', index=0, name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf', index=0, name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf', index=0, name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LastResortHE-Regular.ttf', index=0, name='Last Resort High-Efficiency', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf', index=0, name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmti10.ttf', index=0, name='cmti10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf', index=0, name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf', index=0, name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf', index=0, name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf', index=0, name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf', index=0, name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf', index=0, name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cour.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoepr.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbd.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiab.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanb.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriaz.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\sylfaen.ttf', index=0, name='Sylfaen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriab.ttf', index=0, name='Cambria', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahoma.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuib.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comic.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailu.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=0, name='Nirmala UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=1, name='Nirmala UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=3, name='Nirmala Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=4, name='Nirmala Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=0, name='SimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=1, name='NSimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegoeIcons.ttf', index=0, name='Segoe Fluent Icons', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrii.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\webdings.ttf', index=0, name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoescb.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanai.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeui.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Gabriola.ttf', index=0, name='Gabriola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailub.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI Black', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candara.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanz.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolai.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguihis.ttf', index=0, name='Segoe UI Historic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtextb.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanaz.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\impact.ttf', index=0, name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\micross.ttf', index=0, name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbd.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\times.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\javatext.ttf', index=0, name='Javanese Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SimsunExtG.ttf', index=0, name='SimSun-ExtG', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrima.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbd.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbi.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=0, name='MingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=1, name='PMingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=2, name='MingLiU_HKSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=3, name='MingLiU_MSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelb.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarai.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgun.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Inkfree.ttf', index=0, name='Ink Free', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahomabd.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucit.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariali.ttf', index=0, name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicbd.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=0, name='Cambria', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=1, name='Cambria Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguiemj.ttf', index=0, name='Segoe UI Emoji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebuc.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\himalaya.ttf', index=0, name='Microsoft Himalaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\couri.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constani.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SansSerifCollection.ttf', index=0, name='Sans Serif Collection', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoesc.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrimabd.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspa.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\wingding.ttf', index=0, name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugi.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspab.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisym.ttf', index=0, name='Segoe UI Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consola.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtext.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbi.ttf', index=0, name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolab.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palabi.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\symbol.ttf', index=0, name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuii.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constan.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=350, stretch='normal', size='scalable')) = 11.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI Semilight', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\monbaiti.ttf', index=0, name='Mongolian Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 6.888636363636364
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\pala.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgia.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugib.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelawUI.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdana.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiai.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mvboli.ttf', index=0, name='MV Boli', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaraz.ttf', index=0, name='Candara', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI Semibold', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbel.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\l_10646.ttf', index=0, name='Lucida Sans Unicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framd.ttf', index=0, name='Franklin Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbi.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeprb.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibriz.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framdit.ttf', index=0, name='Franklin Gothic Medium', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolaz.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\bahnschrift.ttf', index=0, name='Bahnschrift', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comici.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibri.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelz.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuiz.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegUIVar.ttf', index=0, name='Segoe UI Variable', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriai.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbeli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segmdl2.ttf', index=0, name='Segoe MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taileb.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelaUIb.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka Text', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanab.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrib.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbd.ttf', index=0, name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arial.ttf', index=0, name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palab.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsunb.ttf', index=0, name='SimSun-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiaz.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=0, name='MS Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=1, name='MS UI Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=2, name='MS PGothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunbd.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyi.ttf', index=0, name='Microsoft Yi Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\lucon.ttf', index=0, name='Lucida Console', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicz.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taile.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarab.ttf', index=0, name='Candara', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palai.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-31 04:01:11  DEBUG     matplotlib.font_manager  findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=7.0 to DejaVu Sans ('C:\\Users\\mpicciau\\Downloads\\tmp\\Hex\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2026-10-31 04:02:33  INFO      __main__  ============================================================
+2026-10-31 04:02:33  INFO      __main__  Hex  --  exited normally
+2026-10-31 04:02:33  INFO      __main__  ============================================================
+2026-10-31 04:09:24  INFO      __main__  ============================================================
+2026-10-31 04:09:24  INFO      __main__  Hex  v. 1.0.0  --  starting
+2026-10-31 04:09:24  INFO      __main__  Python 3.14.7  |  platform: win32
+2026-10-31 04:09:24  DEBUG     ai_engine  Loading AI engine: ai_engines.mcts
+2026-10-31 04:09:24  DEBUG     ai_engine  AI engine loaded: MCTS (1000 iterations)
+2026-10-31 04:09:24  INFO      __main__  AI: MCTS (1000 iterations)  |  Skin: Default
+2026-10-31 04:09:24  INFO      __main__  Board default: 11x11  range: 3-19  (autoplay via start screen)
+2026-10-31 04:09:24  INFO      __main__  ============================================================
+2026-10-31 04:09:24  DEBUG     matplotlib  matplotlib data path: C:\Users\mpicciau\Downloads\tmp\Hex\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-31 04:09:24  DEBUG     matplotlib  CONFIGDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:09:24  DEBUG     matplotlib  interactive is False
+2026-10-31 04:09:24  DEBUG     matplotlib  platform is win32
+2026-10-31 04:09:24  DEBUG     matplotlib  CACHEDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:09:24  DEBUG     matplotlib.font_manager  Using fontManager instance from C:\Users\mpicciau\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-31 04:09:24  DEBUG     ui_main  Navigating to start screen
+2026-10-31 04:09:28  DEBUG     ui_main  Launch game: size=11 first=human autoplay=False
+2026-10-31 04:09:28  DEBUG     game_logic  GameState init: size=11 first_player=1
+2026-10-31 04:09:28  DEBUG     ui_main  Navigating to game screen (human_player=1, autoplay=False)
+2026-10-31 04:09:28  DEBUG     ai_engines.mcts  MCTSEngine reset
+2026-10-31 04:09:28  DEBUG     ui_live_panel  LivePanel created (board_size=11)
+2026-10-31 04:09:28  DEBUG     ui_live_panel  LivePanel updated: p1=0 p2=0 score=n/a fill=0%
+2026-10-31 04:09:28  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:09:32  DEBUG     ui_board  Board click cell=(6, 7)
+2026-10-31 04:09:32  DEBUG     game_logic  Player 1 places at (6,7)  move #1
+2026-10-31 04:09:32  DEBUG     game_stats  Stats: move #1 player=1 cell=(6,7) elapsed=4.64s score=1
+2026-10-31 04:09:32  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=0 score=1 fill=1%
+2026-10-31 04:09:32  DEBUG     ui_main  Status: '...'
+2026-10-31 04:09:32  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=0 score=1 fill=1%
+2026-10-31 04:09:32  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:09:33  DEBUG     ai_engines.mcts  MCTS chose (3, 7)  visits=13  win_rate=0.77
+2026-10-31 04:09:33  DEBUG     game_logic  Player 2 places at (3,7)  move #2
+2026-10-31 04:09:33  DEBUG     game_stats  Stats: move #2 player=2 cell=(3,7) elapsed=0.80s score=0
+2026-10-31 04:09:33  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=1 score=0 fill=2%
+2026-10-31 04:09:33  DEBUG     ui_main  Status: '...'
+2026-10-31 04:09:33  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=1 score=0 fill=2%
+2026-10-31 04:09:33  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:09:37  DEBUG     ui_board  Board click cell=(6, 5)
+2026-10-31 04:09:37  DEBUG     game_logic  Player 1 places at (6,5)  move #3
+2026-10-31 04:09:37  DEBUG     game_stats  Stats: move #3 player=1 cell=(6,5) elapsed=3.53s score=1
+2026-10-31 04:09:37  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=1 score=1 fill=2%
+2026-10-31 04:09:37  DEBUG     ui_main  Status: '...'
+2026-10-31 04:09:37  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=1 score=1 fill=2%
+2026-10-31 04:09:37  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:09:37  DEBUG     ai_engines.mcts  MCTS chose (9, 2)  visits=16  win_rate=0.81
+2026-10-31 04:09:37  DEBUG     game_logic  Player 2 places at (9,2)  move #4
+2026-10-31 04:09:37  DEBUG     game_stats  Stats: move #4 player=2 cell=(9,2) elapsed=0.80s score=0
+2026-10-31 04:09:37  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=2 score=0 fill=3%
+2026-10-31 04:09:37  DEBUG     ui_main  Status: '...'
+2026-10-31 04:09:38  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=2 score=0 fill=3%
+2026-10-31 04:09:38  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:09:42  INFO      __main__  ============================================================
+2026-10-31 04:09:42  INFO      __main__  Hex  --  exited normally
+2026-10-31 04:09:42  INFO      __main__  ============================================================
+2026-10-31 04:12:24  INFO      __main__  ============================================================
+2026-10-31 04:12:24  INFO      __main__  Hex  v. 1.0.0  --  starting
+2026-10-31 04:12:24  INFO      __main__  Python 3.14.7  |  platform: win32
+2026-10-31 04:12:24  DEBUG     ai_engine  Loading AI engine: ai_engines.mcts
+2026-10-31 04:12:24  DEBUG     ai_engine  AI engine loaded: MCTS (1000 iterations)
+2026-10-31 04:12:24  INFO      __main__  AI: MCTS (1000 iterations)  |  Skin: Default
+2026-10-31 04:12:24  INFO      __main__  Board default: 11x11  range: 3-19  (autoplay via start screen)
+2026-10-31 04:12:24  INFO      __main__  ============================================================
+2026-10-31 04:12:24  DEBUG     matplotlib  matplotlib data path: C:\Users\mpicciau\Downloads\tmp\Hex\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-31 04:12:24  DEBUG     matplotlib  CONFIGDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:12:24  DEBUG     matplotlib  interactive is False
+2026-10-31 04:12:24  DEBUG     matplotlib  platform is win32
+2026-10-31 04:12:24  DEBUG     matplotlib  CACHEDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:12:24  DEBUG     matplotlib.font_manager  Using fontManager instance from C:\Users\mpicciau\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-31 04:12:25  DEBUG     ui_main  Navigating to start screen
+2026-10-31 04:12:26  DEBUG     ui_main  Launch game: size=11 first=human autoplay=False
+2026-10-31 04:12:26  DEBUG     game_logic  GameState init: size=11 first_player=1
+2026-10-31 04:12:26  DEBUG     ui_main  Navigating to game screen (human_player=1, autoplay=False)
+2026-10-31 04:12:26  DEBUG     ai_engines.mcts  MCTSEngine reset
+2026-10-31 04:12:26  DEBUG     ui_live_panel  LivePanel created (board_size=11)
+2026-10-31 04:12:27  DEBUG     ui_live_panel  LivePanel updated: p1=0 p2=0 score=n/a fill=0%
+2026-10-31 04:12:27  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:29  DEBUG     ui_board  Board click cell=(3, 8)
+2026-10-31 04:12:29  DEBUG     game_logic  Player 1 places at (3,8)  move #1
+2026-10-31 04:12:29  DEBUG     game_stats  Stats: move #1 player=1 cell=(3,8) elapsed=2.27s think=2.053s score=1
+2026-10-31 04:12:29  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=0 score=1 fill=1%
+2026-10-31 04:12:29  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:29  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=0 score=1 fill=1%
+2026-10-31 04:12:29  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:12:29  DEBUG     ai_engines.mcts  MCTS chose (8, 4)  visits=14  win_rate=0.79
+2026-10-31 04:12:29  DEBUG     game_logic  Player 2 places at (8,4)  move #2
+2026-10-31 04:12:29  DEBUG     game_stats  Stats: move #2 player=2 cell=(8,4) elapsed=0.81s think=0.283s score=0
+2026-10-31 04:12:29  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=1 score=0 fill=2%
+2026-10-31 04:12:29  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:30  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=1 score=0 fill=2%
+2026-10-31 04:12:30  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:31  DEBUG     ui_board  Board click cell=(4, 5)
+2026-10-31 04:12:31  DEBUG     game_logic  Player 1 places at (4,5)  move #3
+2026-10-31 04:12:31  DEBUG     game_stats  Stats: move #3 player=1 cell=(4,5) elapsed=2.04s think=1.826s score=1
+2026-10-31 04:12:31  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=1 score=1 fill=2%
+2026-10-31 04:12:31  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:32  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=1 score=1 fill=2%
+2026-10-31 04:12:32  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:12:32  DEBUG     ai_engines.mcts  MCTS chose (10, 9)  visits=17  win_rate=0.82
+2026-10-31 04:12:32  DEBUG     game_logic  Player 2 places at (10,9)  move #4
+2026-10-31 04:12:32  DEBUG     game_stats  Stats: move #4 player=2 cell=(10,9) elapsed=0.79s think=0.258s score=1
+2026-10-31 04:12:32  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=2 score=1 fill=3%
+2026-10-31 04:12:32  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:32  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=2 score=1 fill=3%
+2026-10-31 04:12:32  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:33  DEBUG     ui_board  Board click cell=(2, 5)
+2026-10-31 04:12:33  DEBUG     game_logic  Player 1 places at (2,5)  move #5
+2026-10-31 04:12:33  DEBUG     game_stats  Stats: move #5 player=1 cell=(2,5) elapsed=0.69s think=0.486s score=1
+2026-10-31 04:12:33  DEBUG     ui_live_panel  LivePanel updated: p1=3 p2=2 score=1 fill=4%
+2026-10-31 04:12:33  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:33  DEBUG     ui_live_panel  LivePanel updated: p1=3 p2=2 score=1 fill=4%
+2026-10-31 04:12:33  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:12:34  DEBUG     ai_engines.mcts  MCTS chose (6, 3)  visits=16  win_rate=0.75
+2026-10-31 04:12:34  DEBUG     game_logic  Player 2 places at (6,3)  move #6
+2026-10-31 04:12:34  DEBUG     game_stats  Stats: move #6 player=2 cell=(6,3) elapsed=0.76s think=0.242s score=1
+2026-10-31 04:12:34  DEBUG     ui_live_panel  LivePanel updated: p1=3 p2=3 score=1 fill=5%
+2026-10-31 04:12:34  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:34  DEBUG     ui_live_panel  LivePanel updated: p1=3 p2=3 score=1 fill=5%
+2026-10-31 04:12:34  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:34  DEBUG     ui_board  Board click cell=(6, 2)
+2026-10-31 04:12:34  DEBUG     game_logic  Player 1 places at (6,2)  move #7
+2026-10-31 04:12:34  DEBUG     game_stats  Stats: move #7 player=1 cell=(6,2) elapsed=0.34s think=0.120s score=2
+2026-10-31 04:12:34  DEBUG     ui_live_panel  LivePanel updated: p1=4 p2=3 score=2 fill=6%
+2026-10-31 04:12:34  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:34  DEBUG     ui_live_panel  LivePanel updated: p1=4 p2=3 score=2 fill=6%
+2026-10-31 04:12:34  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:12:35  DEBUG     ai_engines.mcts  MCTS chose (0, 7)  visits=18  win_rate=0.78
+2026-10-31 04:12:35  DEBUG     game_logic  Player 2 places at (0,7)  move #8
+2026-10-31 04:12:35  DEBUG     game_stats  Stats: move #8 player=2 cell=(0,7) elapsed=0.77s think=0.242s score=1
+2026-10-31 04:12:35  DEBUG     ui_live_panel  LivePanel updated: p1=4 p2=4 score=1 fill=7%
+2026-10-31 04:12:35  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:35  DEBUG     ui_live_panel  LivePanel updated: p1=4 p2=4 score=1 fill=7%
+2026-10-31 04:12:35  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:35  DEBUG     ui_board  Board click cell=(6, 8)
+2026-10-31 04:12:35  DEBUG     game_logic  Player 1 places at (6,8)  move #9
+2026-10-31 04:12:35  DEBUG     game_stats  Stats: move #9 player=1 cell=(6,8) elapsed=0.38s think=0.143s score=1
+2026-10-31 04:12:35  DEBUG     ui_live_panel  LivePanel updated: p1=5 p2=4 score=1 fill=7%
+2026-10-31 04:12:35  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:35  DEBUG     ui_live_panel  LivePanel updated: p1=5 p2=4 score=1 fill=7%
+2026-10-31 04:12:35  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:12:36  DEBUG     ai_engines.mcts  MCTS chose (6, 7)  visits=18  win_rate=0.78
+2026-10-31 04:12:36  DEBUG     game_logic  Player 2 places at (6,7)  move #10
+2026-10-31 04:12:36  DEBUG     game_stats  Stats: move #10 player=2 cell=(6,7) elapsed=0.78s think=0.248s score=1
+2026-10-31 04:12:36  DEBUG     ui_live_panel  LivePanel updated: p1=5 p2=5 score=1 fill=8%
+2026-10-31 04:12:36  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:36  DEBUG     ui_live_panel  LivePanel updated: p1=5 p2=5 score=1 fill=8%
+2026-10-31 04:12:36  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:37  DEBUG     ui_board  Board click cell=(9, 7)
+2026-10-31 04:12:37  DEBUG     game_logic  Player 1 places at (9,7)  move #11
+2026-10-31 04:12:37  DEBUG     game_stats  Stats: move #11 player=1 cell=(9,7) elapsed=0.58s think=0.365s score=1
+2026-10-31 04:12:37  DEBUG     ui_live_panel  LivePanel updated: p1=6 p2=5 score=1 fill=9%
+2026-10-31 04:12:37  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:37  DEBUG     ui_live_panel  LivePanel updated: p1=6 p2=5 score=1 fill=9%
+2026-10-31 04:12:37  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:12:37  DEBUG     ai_engines.mcts  MCTS chose (4, 4)  visits=15  win_rate=0.73
+2026-10-31 04:12:37  DEBUG     game_logic  Player 2 places at (4,4)  move #12
+2026-10-31 04:12:37  DEBUG     game_stats  Stats: move #12 player=2 cell=(4,4) elapsed=0.81s think=0.270s score=0
+2026-10-31 04:12:37  DEBUG     ui_live_panel  LivePanel updated: p1=6 p2=6 score=0 fill=10%
+2026-10-31 04:12:37  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:38  DEBUG     ui_live_panel  LivePanel updated: p1=6 p2=6 score=0 fill=10%
+2026-10-31 04:12:38  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:38  DEBUG     ui_board  Board click cell=(6, 5)
+2026-10-31 04:12:38  DEBUG     game_logic  Player 1 places at (6,5)  move #13
+2026-10-31 04:12:38  DEBUG     game_stats  Stats: move #13 player=1 cell=(6,5) elapsed=0.79s think=0.571s score=0
+2026-10-31 04:12:38  DEBUG     ui_live_panel  LivePanel updated: p1=7 p2=6 score=0 fill=11%
+2026-10-31 04:12:38  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:38  DEBUG     ui_live_panel  LivePanel updated: p1=7 p2=6 score=0 fill=11%
+2026-10-31 04:12:38  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:12:39  DEBUG     ai_engines.mcts  MCTS chose (2, 4)  visits=14  win_rate=0.71
+2026-10-31 04:12:39  DEBUG     game_logic  Player 2 places at (2,4)  move #14
+2026-10-31 04:12:39  DEBUG     game_stats  Stats: move #14 player=2 cell=(2,4) elapsed=0.77s think=0.252s score=0
+2026-10-31 04:12:39  DEBUG     ui_live_panel  LivePanel updated: p1=7 p2=7 score=0 fill=12%
+2026-10-31 04:12:39  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:39  DEBUG     ui_live_panel  LivePanel updated: p1=7 p2=7 score=0 fill=12%
+2026-10-31 04:12:39  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:41  DEBUG     ui_board  Board click cell=(2, 1)
+2026-10-31 04:12:41  DEBUG     game_logic  Player 1 places at (2,1)  move #15
+2026-10-31 04:12:41  DEBUG     game_stats  Stats: move #15 player=1 cell=(2,1) elapsed=1.63s think=1.424s score=0
+2026-10-31 04:12:41  DEBUG     ui_live_panel  LivePanel updated: p1=8 p2=7 score=0 fill=12%
+2026-10-31 04:12:41  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:41  DEBUG     ui_live_panel  LivePanel updated: p1=8 p2=7 score=0 fill=12%
+2026-10-31 04:12:41  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:12:41  DEBUG     ai_engines.mcts  MCTS chose (1, 4)  visits=14  win_rate=0.79
+2026-10-31 04:12:41  DEBUG     game_logic  Player 2 places at (1,4)  move #16
+2026-10-31 04:12:41  DEBUG     game_stats  Stats: move #16 player=2 cell=(1,4) elapsed=0.87s think=0.324s score=-1
+2026-10-31 04:12:41  DEBUG     ui_live_panel  LivePanel updated: p1=8 p2=8 score=-1 fill=13%
+2026-10-31 04:12:41  DEBUG     ui_main  Status: '...'
+2026-10-31 04:12:42  DEBUG     ui_live_panel  LivePanel updated: p1=8 p2=8 score=-1 fill=13%
+2026-10-31 04:12:42  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:12:51  DEBUG     game_persistence  Saving game to 'C:/Users/mpicciau/Downloads/zzzz.json'
+2026-10-31 04:12:51  INFO      game_persistence  Game saved to 'C:/Users/mpicciau/Downloads/zzzz.json'
+2026-10-31 04:12:57  INFO      __main__  ============================================================
+2026-10-31 04:12:57  INFO      __main__  Hex  --  exited normally
+2026-10-31 04:12:57  INFO      __main__  ============================================================
+2026-10-31 04:15:43  INFO      __main__  ============================================================
+2026-10-31 04:15:43  INFO      __main__  Hex  v. 1.0.0  --  starting
+2026-10-31 04:15:43  INFO      __main__  Python 3.14.7  |  platform: win32
+2026-10-31 04:15:43  DEBUG     ai_engine  Loading AI engine: ai_engines.mcts
+2026-10-31 04:15:43  DEBUG     ai_engine  AI engine loaded: MCTS (1000 iterations)
+2026-10-31 04:15:43  INFO      __main__  AI: MCTS (1000 iterations)  |  Skin: Default
+2026-10-31 04:15:43  INFO      __main__  Board default: 11x11  range: 3-19  (autoplay via start screen)
+2026-10-31 04:15:43  INFO      __main__  ============================================================
+2026-10-31 04:15:43  DEBUG     matplotlib  matplotlib data path: C:\Users\mpicciau\Downloads\tmp\Hex\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-31 04:15:43  DEBUG     matplotlib  CONFIGDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:15:43  DEBUG     matplotlib  interactive is False
+2026-10-31 04:15:43  DEBUG     matplotlib  platform is win32
+2026-10-31 04:15:43  DEBUG     matplotlib  CACHEDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:15:43  DEBUG     matplotlib.font_manager  Using fontManager instance from C:\Users\mpicciau\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-31 04:15:43  DEBUG     ui_main  Navigating to start screen
+2026-10-31 04:15:45  INFO      __main__  ============================================================
+2026-10-31 04:15:45  INFO      __main__  Hex  --  exited normally
+2026-10-31 04:15:45  INFO      __main__  ============================================================
+2026-10-31 04:16:21  INFO      __main__  ============================================================
+2026-10-31 04:16:21  INFO      __main__  Hex  v. 1.0.0  --  starting
+2026-10-31 04:16:21  INFO      __main__  Python 3.14.7  |  platform: win32
+2026-10-31 04:16:21  DEBUG     ai_engine  Loading AI engine: ai_engines.mcts
+2026-10-31 04:16:21  DEBUG     ai_engine  AI engine loaded: MCTS (1000 iterations)
+2026-10-31 04:16:21  INFO      __main__  AI: MCTS (1000 iterations)  |  Skin: Candy
+2026-10-31 04:16:21  INFO      __main__  Board default: 11x11  range: 3-19  (autoplay via start screen)
+2026-10-31 04:16:21  INFO      __main__  ============================================================
+2026-10-31 04:16:21  DEBUG     matplotlib  matplotlib data path: C:\Users\mpicciau\Downloads\tmp\Hex\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-31 04:16:21  DEBUG     matplotlib  CONFIGDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:16:21  DEBUG     matplotlib  interactive is False
+2026-10-31 04:16:21  DEBUG     matplotlib  platform is win32
+2026-10-31 04:16:21  DEBUG     matplotlib  CACHEDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:16:21  DEBUG     matplotlib.font_manager  Using fontManager instance from C:\Users\mpicciau\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-31 04:16:21  DEBUG     ui_main  Navigating to start screen
+2026-10-31 04:16:23  DEBUG     ui_main  Launch game: size=11 first=human autoplay=False
+2026-10-31 04:16:23  DEBUG     game_logic  GameState init: size=11 first_player=1
+2026-10-31 04:16:23  DEBUG     ui_main  Navigating to game screen (human_player=1, autoplay=False)
+2026-10-31 04:16:23  DEBUG     ai_engines.mcts  MCTSEngine reset
+2026-10-31 04:16:23  DEBUG     ui_live_panel  LivePanel created (board_size=11)
+2026-10-31 04:16:24  DEBUG     ui_live_panel  LivePanel updated: p1=0 p2=0 score=n/a fill=0%
+2026-10-31 04:16:24  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:16:25  DEBUG     ui_board  Board click cell=(4, 3)
+2026-10-31 04:16:25  DEBUG     game_logic  Player 1 places at (4,3)  move #1
+2026-10-31 04:16:25  DEBUG     game_stats  Stats: move #1 player=1 cell=(4,3) elapsed=1.49s think=1.266s score=1
+2026-10-31 04:16:25  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=0 score=1 fill=1%
+2026-10-31 04:16:25  DEBUG     ui_main  Status: '...'
+2026-10-31 04:16:25  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=0 score=1 fill=1%
+2026-10-31 04:16:25  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:16:26  DEBUG     ai_engines.mcts  MCTS chose (7, 4)  visits=15  win_rate=0.87
+2026-10-31 04:16:26  DEBUG     game_logic  Player 2 places at (7,4)  move #2
+2026-10-31 04:16:26  DEBUG     game_stats  Stats: move #2 player=2 cell=(7,4) elapsed=0.78s think=0.252s score=0
+2026-10-31 04:16:26  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=1 score=0 fill=2%
+2026-10-31 04:16:26  DEBUG     ui_main  Status: '...'
+2026-10-31 04:16:26  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=1 score=0 fill=2%
+2026-10-31 04:16:26  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:16:26  DEBUG     ui_board  Board click cell=(8, 8)
+2026-10-31 04:16:26  DEBUG     game_logic  Player 1 places at (8,8)  move #3
+2026-10-31 04:16:26  DEBUG     game_stats  Stats: move #3 player=1 cell=(8,8) elapsed=0.51s think=0.295s score=0
+2026-10-31 04:16:26  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=1 score=0 fill=2%
+2026-10-31 04:16:26  DEBUG     ui_main  Status: '...'
+2026-10-31 04:16:26  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=1 score=0 fill=2%
+2026-10-31 04:16:26  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:16:27  DEBUG     ai_engines.mcts  MCTS chose (5, 1)  visits=13  win_rate=0.69
+2026-10-31 04:16:27  DEBUG     game_logic  Player 2 places at (5,1)  move #4
+2026-10-31 04:16:27  DEBUG     game_stats  Stats: move #4 player=2 cell=(5,1) elapsed=0.79s think=0.274s score=0
+2026-10-31 04:16:27  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=2 score=0 fill=3%
+2026-10-31 04:16:27  DEBUG     ui_main  Status: '...'
+2026-10-31 04:16:27  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=2 score=0 fill=3%
+2026-10-31 04:16:27  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:16:28  INFO      __main__  ============================================================
+2026-10-31 04:16:28  INFO      __main__  Hex  --  exited normally
+2026-10-31 04:16:28  INFO      __main__  ============================================================
+2026-10-31 04:16:43  INFO      __main__  ============================================================
+2026-10-31 04:16:43  INFO      __main__  Hex  v. 1.0.0  --  starting
+2026-10-31 04:16:43  INFO      __main__  Python 3.14.7  |  platform: win32
+2026-10-31 04:16:43  DEBUG     ai_engine  Loading AI engine: ai_engines.mcts
+2026-10-31 04:16:43  DEBUG     ai_engine  AI engine loaded: MCTS (1000 iterations)
+2026-10-31 04:16:43  INFO      __main__  AI: MCTS (1000 iterations)  |  Skin: Sunset
+2026-10-31 04:16:43  INFO      __main__  Board default: 11x11  range: 3-19  (autoplay via start screen)
+2026-10-31 04:16:43  INFO      __main__  ============================================================
+2026-10-31 04:16:43  DEBUG     matplotlib  matplotlib data path: C:\Users\mpicciau\Downloads\tmp\Hex\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-31 04:16:43  DEBUG     matplotlib  CONFIGDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:16:43  DEBUG     matplotlib  interactive is False
+2026-10-31 04:16:43  DEBUG     matplotlib  platform is win32
+2026-10-31 04:16:43  DEBUG     matplotlib  CACHEDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:16:43  DEBUG     matplotlib.font_manager  Using fontManager instance from C:\Users\mpicciau\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-31 04:16:43  DEBUG     ui_main  Navigating to start screen
+2026-10-31 04:16:45  DEBUG     ui_main  Launch game: size=11 first=human autoplay=False
+2026-10-31 04:16:45  DEBUG     game_logic  GameState init: size=11 first_player=1
+2026-10-31 04:16:45  DEBUG     ui_main  Navigating to game screen (human_player=1, autoplay=False)
+2026-10-31 04:16:45  DEBUG     ai_engines.mcts  MCTSEngine reset
+2026-10-31 04:16:45  DEBUG     ui_live_panel  LivePanel created (board_size=11)
+2026-10-31 04:16:46  DEBUG     ui_live_panel  LivePanel updated: p1=0 p2=0 score=n/a fill=0%
+2026-10-31 04:16:46  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:16:48  INFO      __main__  ============================================================
+2026-10-31 04:16:48  INFO      __main__  Hex  --  exited normally
+2026-10-31 04:16:48  INFO      __main__  ============================================================
+2026-10-31 04:17:01  INFO      __main__  ============================================================
+2026-10-31 04:17:01  INFO      __main__  Hex  v. 1.0.0  --  starting
+2026-10-31 04:17:01  INFO      __main__  Python 3.14.7  |  platform: win32
+2026-10-31 04:17:01  DEBUG     ai_engine  Loading AI engine: ai_engines.mcts
+2026-10-31 04:17:01  DEBUG     ai_engine  AI engine loaded: MCTS (1000 iterations)
+2026-10-31 04:17:01  INFO      __main__  AI: MCTS (1000 iterations)  |  Skin: Midnight
+2026-10-31 04:17:01  INFO      __main__  Board default: 11x11  range: 3-19  (autoplay via start screen)
+2026-10-31 04:17:01  INFO      __main__  ============================================================
+2026-10-31 04:17:02  DEBUG     matplotlib  matplotlib data path: C:\Users\mpicciau\Downloads\tmp\Hex\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-31 04:17:02  DEBUG     matplotlib  CONFIGDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:17:02  DEBUG     matplotlib  interactive is False
+2026-10-31 04:17:02  DEBUG     matplotlib  platform is win32
+2026-10-31 04:17:02  DEBUG     matplotlib  CACHEDIR=C:\Users\mpicciau\AppData\Local\matplotlib
+2026-10-31 04:17:02  DEBUG     matplotlib.font_manager  Using fontManager instance from C:\Users\mpicciau\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-31 04:17:02  DEBUG     ui_main  Navigating to start screen
+2026-10-31 04:17:04  DEBUG     ui_main  Launch game: size=11 first=human autoplay=False
+2026-10-31 04:17:04  DEBUG     game_logic  GameState init: size=11 first_player=1
+2026-10-31 04:17:04  DEBUG     ui_main  Navigating to game screen (human_player=1, autoplay=False)
+2026-10-31 04:17:04  DEBUG     ai_engines.mcts  MCTSEngine reset
+2026-10-31 04:17:04  DEBUG     ui_live_panel  LivePanel created (board_size=11)
+2026-10-31 04:17:04  DEBUG     ui_live_panel  LivePanel updated: p1=0 p2=0 score=n/a fill=0%
+2026-10-31 04:17:04  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:17:05  DEBUG     ui_board  Board click cell=(5, 6)
+2026-10-31 04:17:05  DEBUG     game_logic  Player 1 places at (5,6)  move #1
+2026-10-31 04:17:05  DEBUG     game_stats  Stats: move #1 player=1 cell=(5,6) elapsed=1.08s think=0.872s score=1
+2026-10-31 04:17:05  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=0 score=1 fill=1%
+2026-10-31 04:17:05  DEBUG     ui_main  Status: '...'
+2026-10-31 04:17:05  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=0 score=1 fill=1%
+2026-10-31 04:17:05  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:17:05  DEBUG     ai_engines.mcts  MCTS chose (0, 2)  visits=15  win_rate=0.80
+2026-10-31 04:17:05  DEBUG     game_logic  Player 2 places at (0,2)  move #2
+2026-10-31 04:17:05  DEBUG     game_stats  Stats: move #2 player=2 cell=(0,2) elapsed=0.79s think=0.269s score=0
+2026-10-31 04:17:05  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=1 score=0 fill=2%
+2026-10-31 04:17:05  DEBUG     ui_main  Status: '...'
+2026-10-31 04:17:06  DEBUG     ui_live_panel  LivePanel updated: p1=1 p2=1 score=0 fill=2%
+2026-10-31 04:17:06  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:17:06  DEBUG     ui_board  Board click cell=(8, 2)
+2026-10-31 04:17:06  DEBUG     game_logic  Player 1 places at (8,2)  move #3
+2026-10-31 04:17:06  DEBUG     game_stats  Stats: move #3 player=1 cell=(8,2) elapsed=0.92s think=0.706s score=1
+2026-10-31 04:17:06  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=1 score=1 fill=2%
+2026-10-31 04:17:06  DEBUG     ui_main  Status: '...'
+2026-10-31 04:17:07  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=1 score=1 fill=2%
+2026-10-31 04:17:07  DEBUG     ui_main  Status: 'Machine is thinking...'
+2026-10-31 04:17:07  DEBUG     ai_engines.mcts  MCTS chose (0, 4)  visits=15  win_rate=0.80
+2026-10-31 04:17:07  DEBUG     game_logic  Player 2 places at (0,4)  move #4
+2026-10-31 04:17:07  DEBUG     game_stats  Stats: move #4 player=2 cell=(0,4) elapsed=0.80s think=0.269s score=1
+2026-10-31 04:17:07  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=2 score=1 fill=3%
+2026-10-31 04:17:07  DEBUG     ui_main  Status: '...'
+2026-10-31 04:17:07  DEBUG     ui_live_panel  LivePanel updated: p1=2 p2=2 score=1 fill=3%
+2026-10-31 04:17:07  DEBUG     ui_main  Status: 'Your turn -- click a cell to place your stone'
+2026-10-31 04:17:10  INFO      __main__  ============================================================
+2026-10-31 04:17:10  INFO      __main__  Hex  --  exited normally
+2026-10-31 04:17:10  INFO      __main__  ============================================================

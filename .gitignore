@@ -1,0 +1,7 @@
+venv
+**/__pycache__/
+conf/*
+!conf/ap-config.yaml
+!conf/db-loader.yaml
+!conf/acme-conf.yaml
+reports/*
